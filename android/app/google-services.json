@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "253153971570",
+    "project_id": "freefromdiabetes-ux-thesis",
+    "storage_bucket": "freefromdiabetes-ux-thesis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253153971570:android:9efd3ea8ac6ea7527f21eb",
+        "android_client_info": {
+          "package_name": "com.example.free_from_diabetes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253153971570-vcnfe0207ots241qbu6l97qn39j2ercc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUFhC5Bl1aY_iIuDrJ2V8dvlKIVCumkDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253153971570-etgk036vi8qcvpu9vmjunovr0f82c2ok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

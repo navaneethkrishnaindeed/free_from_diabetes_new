@@ -1,0 +1,25 @@
+{
+    "body": {
+        "number_ofChildren": "2",
+        "data": [
+            {
+                "temp_title": "best of brands",
+                "category_list": [],
+                "title_image": "1.img",
+                "banners": [""],
+                "timer": "",
+                "horizondal_List": [],
+                "grid_List": []
+            },
+            {
+                "temp_title": "best of brands",
+                "category_list": [],
+                "title_image": "1.img",
+                "banners": [""],
+                "timer": "",
+                "horizondal_List": [],
+                "grid_List": []
+            }
+        ]
+    }
+}
