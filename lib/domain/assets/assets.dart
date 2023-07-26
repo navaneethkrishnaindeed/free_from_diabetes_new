@@ -7,7 +7,8 @@ import '../designs/textSize.dart';
 
 mixin VectorAssets {
   static SplashScreenAssets get splashScreenAssets => SplashScreenAssets();
-  static OnboardingScreenAssets get onboardingScreenAssets => OnboardingScreenAssets();
+  static OnboardingScreenAssets get onboardingScreenAssets =>
+      OnboardingScreenAssets();
   static LoginScreenAssets get loginScreenAssets => LoginScreenAssets();
 }
 
@@ -35,9 +36,12 @@ class OnboardingScreenAssets {
       AssetPaths.onboardingScreensAssetPaths.onboardingScreenTwo);
   final onboardingScreenThree = SvgPicture.asset(
       AssetPaths.onboardingScreensAssetPaths.onboardingScreenThree);
+  final shadowContainer = SvgPicture.asset(AssetPaths.onboardingScreensAssetPaths.shadowCOntainer);
 }
 
 class LoginScreenAssets {
-  final bloodLogo =
-      SvgPicture.asset(AssetPaths.splashScreenAssetPaths.bloodLogo,height: 120,);
+  final bloodLogo = SvgPicture.asset(
+    AssetPaths.splashScreenAssetPaths.bloodLogo,
+    height: 120,
+  );
 }

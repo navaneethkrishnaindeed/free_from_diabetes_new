@@ -1,4 +1,6 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:free_from_diabetes/presentation/auth/login_screen/login_screen.dart';
 
 class AuthenticationModule extends StatefulWidget {
   const AuthenticationModule({super.key});
@@ -10,10 +12,19 @@ class AuthenticationModule extends StatefulWidget {
 class _AuthenticationModuleState extends State<AuthenticationModule> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: StreamBuilder(
-        builder: (context, snapshot) => Container(),
-      ),
-    );
+    return 
+       StreamBuilder(
+        stream: FirebaseAuth.instance.authStateChanges(),
+        builder: (context, snapshot) {
+          if (snapshot.hasData) {
+            return Scaffold(
+              body: Center(child: Text("Logged in")),
+            );
+          } else {
+            return LoginScreen();
+          }
+        },
+      );
+    
   }
 }
